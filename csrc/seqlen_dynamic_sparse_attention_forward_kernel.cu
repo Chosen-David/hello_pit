@@ -271,7 +271,7 @@ __global__ void BLOCK_SPARSE_MATMUL_OUT_FP16(
 __global__ void BLOCK_SPARSE_MATMUL_OUT_32_64_32(
     float* A,
     float* B,
-    float* C_val,
+    float* C_val,   
     int * seqlens,
     int GLOBAL_M,
     int GLOBAL_K,
